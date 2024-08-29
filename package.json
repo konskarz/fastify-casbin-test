@@ -1,0 +1,23 @@
+{
+  "name": "erpedu-fastify-iam",
+  "version": "1.0.0",
+  "type": "module",
+  "module": "index.js",
+  "description": "",
+  "scripts": {
+    "dev": "fastify start -w -l info -P index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/jwt": "^8.0.1",
+    "casbin": "^5.30.0",
+    "fastify": "^4.28.1",
+    "fastify-casbin": "^3.1.1",
+    "fastify-casbin-rest": "^3.1.1"
+  },
+  "devDependencies": {
+    "fastify-cli": "^6.3.0"
+  }
+}
